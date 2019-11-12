@@ -1,0 +1,33 @@
+{
+  "name": "@voliware/node-minify-transform",
+  "version": "0.1.0",
+  "description": "Minify JS, CSS, and HTML in a stream using a transform and node-minify",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voliware/node-minify-transform.git"
+  },
+  "keywords": [
+    "minify",
+    "stream",
+    "transform"
+  ],
+  "author": "Anthony Agostino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Voliware/node-minify-transform/issues"
+  },
+  "homepage": "https://github.com/Voliware/node-minify-transform#readme",
+  "dependencies": {
+    "@node-minify/clean-css": "^5.2.0",
+    "@node-minify/core": "^5.2.0",
+    "@node-minify/html-minifier": "^5.2.0",
+    "@node-minify/uglify-es": "^5.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
