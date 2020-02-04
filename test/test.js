@@ -30,7 +30,7 @@ function run(minifyTransform, readable_data, expectation){
                     resolve();
                 }
                 else {
-                    reject(new Error(`Data does not match ${data.toString()}`));
+                    reject(new Error('Data does not match'));
                 }
             })
             .on('error', (error) => {
